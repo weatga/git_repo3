@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>AddEditCoffeeForm</class>
+    <widget class="QDialog" name="AddEditCoffeeForm">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>400</width>
+                <height>300</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Добавить/Редактировать запись о кофе</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QLabel" name="label">
+                    <property name="text">
+                        <string>Название сорта:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="name_input"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="label_2">
+                    <property name="text">
+                        <string>Степень обжарки:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="roast_input"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="label_3">
+                    <property name="text">
+                        <string>Молотый/в зернах:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="grind_input"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="label_4">
+                    <property name="text">
+                        <string>Описание вкуса:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="flavor_input"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="label_5">
+                    <property name="text">
+                        <string>Цена:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="price_input"/>
+            </item>
+            <item>
+                <widget class="QLabel" name="label_6">
+                    <property name="text">
+                        <string>Объем упаковки:</string>
+                    </property>
+                </widget>
+            </item>
+            <item>
+                <widget class="QLineEdit" name="volume_input"/>
+            </item>
+            <item>
+                <widget class="QPushButton" name="save_button">
+                    <property name="text">
+                        <string>Сохранить</string>
+                    </property>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
